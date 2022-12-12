@@ -1,2 +1,6 @@
 # chibio
-Retrieve fasta sequences from local containing 2 or 1 genes of interest.
+Get sequences containing one or two genes of interest in a plasmid.
+
+For that:
+- run plasmidfinder 
+- run blast with the plasmids sequences output from plasmidfinder + amr genes database
