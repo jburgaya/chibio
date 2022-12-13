@@ -11,8 +11,6 @@ Get sequences containing one or two genes of interest in a plasmid.
 
 1. Find seq. with plasmids **plasmidfinder**  
 
-conda env in primo
-
 ```
 $ for file in data/test/*
 > do
@@ -23,8 +21,6 @@ $ for file in data/test/*
 ```
 
 Or, run **abricate** (v.1.0.1) - faster and easier
-
-conda env in primo
 
 ```
 $ abricate --db plasmidfinder data/test/*.fna > out/abricate.tab
