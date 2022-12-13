@@ -1,9 +1,14 @@
 # chibio
 Get sequences containing one or two genes of interest in a plasmid.
 
-For that:
+### Input
 
-1. **run plasmidfinder** ()  
+`data/test/*` > contains the fasta sequences
+`data/filtered.fasta`: contains the amr genes
+
+### Usage
+
+1. Find seq. with plasmids **plasmidfinder**  
 conda env in primo
 
 ```
@@ -23,7 +28,7 @@ $ abricate --db plasmidfinder data/test/*.fna > out/abricate.tab
 $ abricate --summary out/abricate.tab > out/summary.tab
 ```
 
-2. run **blast** query=amr genes sequences (data/filtered.fasta)
+2. run **blast** query=amr genes sequences (`data/filtered.fasta`)
 
 ```
 $ for file in data/test/*
