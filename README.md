@@ -3,7 +3,7 @@ Get sequences containing one or two genes of interest in a plasmid.
 
 ### Input
 
-`data/test/*`: contains the fasta sequences
+`data/test/`: contains the fasta sequences
 
 `data/filtered.fasta`: contains the amr genes
 
