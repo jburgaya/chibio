@@ -27,7 +27,9 @@ $ abricate --db plasmidfinder data/test/*.fna > out/abricate.tab
 $ abricate --summary out/abricate.tab > out/summary.tab
 ```
 
-2. run **blast** query=amr genes sequences (`data/filtered.fasta`)
+2. run **blast** (v.2.12.0)
+
+query: amr genes sequences (`data/filtered.fasta`)
 
 ```
 $ for file in data/test/*
