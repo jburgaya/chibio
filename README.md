@@ -10,6 +10,7 @@ Get sequences containing one or two genes of interest in a plasmid.
 ### Usage
 
 1. Find seq. with plasmids **plasmidfinder**  
+
 conda env in primo
 
 ```
@@ -21,7 +22,8 @@ $ for file in data/test/*
 > done
 ```
 
-Or, run **abricate** (v.1.0.1)- much faster and easier
+Or, run **abricate** (v.1.0.1) - faster and easier
+
 conda env in primo
 
 ```
