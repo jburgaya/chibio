@@ -33,12 +33,14 @@ $ abricate --summary out/abricate.tab > out/summary.tab
 $ for file in data/test/*
 > do
 > name="$(basename $file)"
-> mkdir out/$name
-> blastn -query data/filtered.fasta -out out/$name/$name.blast.txt -subject $file -outfmt "6 qseqid sseqid pident qlen slen length nident"
+> blastn -query data/filtered.fasta -out out/$name.csv -subject $file -outfmt "6 qseqid sseqid pident qlen slen length nident"
 > done
 ```
 
-- Combine blast output
-- Check for samples with mcr-1 + any other gene
-- Find interesect samples with plasmid presence
+3. Combine blast output
+
+`workflow/scripts/combine.py`
+
+4. Check for samples with mcr-1 + any other gene
+5. Find interesect samples with plasmid presence + mcr-1 + other gene
 
