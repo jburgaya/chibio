@@ -44,5 +44,8 @@ $ for file in data/test/*
 `workflow/scripts/combine.py`
 
 4. Check for samples with mcr-1 + any other gene
+
+`workflow/scripts/resistant.py`
+
 5. Find interesect samples with plasmid presence + mcr-1 + other gene
 
