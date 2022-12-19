@@ -47,5 +47,5 @@ $ for file in data/test/*
 
 `workflow/scripts/resistant.py`
 
-5. Find interesect samples with plasmid presence + mcr-1 + other gene
+5. resistant genes within plasmid 
 
